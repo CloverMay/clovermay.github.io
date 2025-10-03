@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1a1a1a;
-  font-family: 'arial', arial, tahoma, sans-serif;
+  font-family: tahoma, arial, sans-serif;
 }
 
 /* Container - responsive width */
@@ -35,7 +35,7 @@ body {
 
 .headtitle {
   position: absolute;
-  font-family: 'tahoma', arial, tahoma, sans-serif;
+  font-family: tahoma, arial, tahoma, sans-serif;
   font-size: clamp(1.5rem, 4vw, 3rem);
   font-weight: bold;
   color: #FFF;
@@ -89,7 +89,7 @@ body {
   border: none;
   padding: 12px 15px;
   font-size: 1.2em;
-  font-family: 'tahoma', arial, sans-serif;
+  font-family: tahoma, arial, sans-serif;
   font-weight: bold;
   cursor: pointer;
   border-radius: 0px;
@@ -165,7 +165,7 @@ body {
   color: #FDFDFD;
   padding: 12px 20px;
   font-size: 1.3em;
-  font-family: 'tahoma', arial, sans-serif;
+  font-family: tahoma, arial, sans-serif;
   font-weight: bold;
   text-decoration: none;
   display: block;
@@ -201,7 +201,7 @@ body {
 #insidecontent p {
   margin: 0 0 1em 0;
   color: #767676;
-  font-family: 'tahoma', arial, tahoma, sans-serif;
+  font-family: tahoma, arial, sans-serif;
   font-size: 1.4em;
   line-height: 150%;
 }
