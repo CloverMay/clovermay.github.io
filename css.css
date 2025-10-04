@@ -44,36 +44,7 @@ body {
   right: 15px;
 }
 
-/* Dropdown Menu - starts absolute, becomes fixed on scroll
-#menu {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  transition: all 0.3s ease;
-}
-
-#menu.fixed {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-} */
-
-/* Dropdown Menu - starts absolute, becomes fixed on scroll
-#menu {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-} */
-
-/* #menu.fixed {
-  position: fixed;
-  top: 20px;
-}
-  /* right position will be set by JavaScript */
-
-  /* Dropdown Menu - always fixed to viewport */
+/* Dropdown Menu - always fixed to viewport */
 #menu {
   position: fixed;
   top: 30px;
@@ -81,14 +52,13 @@ body {
   /* right position will be calculated by JavaScript */
 }
 
-
 /* Menu toggle button */
 .menu-toggle {
-  background-color: #333; /* #3E628A;*/
+  background-color: #333;
   color: #FDFDFD;
   border: none;
   padding: 12px 15px;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-family: tahoma, arial, sans-serif;
   font-weight: bold;
   cursor: pointer;
@@ -100,7 +70,7 @@ body {
 }
 
 .menu-toggle:hover {
-  background-color: #2e7578; /* #2E4F75; */
+  background-color: #2e7578;
   transform: translateY(-1px);
 }
 
@@ -178,7 +148,7 @@ body {
 }
 
 #menu ul li a:hover {
-  background-color: #2e7578; /* #3E628A; */
+  background-color: #2e7578;
   color: #FDFDFD;
   padding-left: 25px;
 }
@@ -255,7 +225,6 @@ a:focus { color: #143B7D; }
 a:hover { color: #2e7578; }
 a:active { color: #143B7D; }
 
-
 /* Responsive typography */
 h1 {
   margin: 0 0 1rem 0;
@@ -324,6 +293,10 @@ h5 {
 
 /* Small tablets and large phones */
 @media (max-width: 768px) {
+    body {
+    font-size: 62.5%;  /* Increased from 60% for better readability */
+  }
+
   #container {
     padding: 15px 10px 0;
   }
@@ -345,8 +318,13 @@ h5 {
   }
   
   .menu-toggle {
-    padding: 10px 12px;
-    font-size: 1.1em;
+    padding: 12px 15px;
+    font-size: 1.3em;
+  }
+
+  .menu-icon span {
+    width: 20px;         /* Increased from 16px */
+    height: 2px;         /* Increased thickness */
   }
   
   .menu-dropdown {
@@ -356,7 +334,7 @@ h5 {
   #menu ul li a:link, 
   #menu ul li a:active, 
   #menu ul li a:visited {
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding: 10px 15px;
   }
   
@@ -370,10 +348,10 @@ h5 {
   }
 }
 
-/* Mobile phones */
+/* Mobile phones - INCREASED FONT SIZES */
 @media (max-width: 480px) {
   body {
-    font-size: 60%;
+    font-size: 62.5%;  /* Increased from 60% for better readability */
   }
   
   #container {
@@ -397,23 +375,24 @@ h5 {
   }
   
   .menu-toggle {
-    padding: 8px 10px;
-    font-size: 1em;
+    padding: 12px 15px;  /* Increased padding for bigger button */
+    font-size: 1.3em;    /* Increased from 1em */
   }
   
   .menu-icon span {
-    width: 16px;
+    width: 20px;         /* Increased from 16px */
+    height: 2px;         /* Increased thickness */
   }
   
   .menu-dropdown {
-    min-width: 160px;
+    min-width: 180px;    /* Increased from 160px */
   }
   
   #menu ul li a:link, 
   #menu ul li a:active, 
   #menu ul li a:visited {
-    font-size: 1.1em;
-    padding: 10px 15px;
+    font-size: 1.3em;    /* Increased from 1.1em */
+    padding: 12px 18px;  /* Increased padding */
   }
   
   #insidecontent {
@@ -421,7 +400,8 @@ h5 {
   }
   
   #insidecontent p {
-    font-size: 1.3em;
+    font-size: 1.4em;    /* Increased from 1.3em */
+    line-height: 150%;   /* Increased line spacing */
   }
   
   .hanging {
@@ -439,7 +419,7 @@ h5 {
   }
   
   #footer span {
-    font-size: 1.1em;
+    font-size: 1.3em;    /* Increased from 1.1em */
     padding: 8px;
   }
 }
@@ -460,8 +440,8 @@ h5 {
   }
   
   .menu-toggle {
-    padding: 6px 8px;
-    font-size: 0.9em;
+    padding: 12px 15px;   /* Slightly larger than before */
+    font-size: 1.3em;    /* Increased from 0.9em */
   }
   
   .menu-dropdown {
@@ -471,121 +451,11 @@ h5 {
   #menu ul li a:link, 
   #menu ul li a:active, 
   #menu ul li a:visited {
-    font-size: 1em;
-    padding: 8px 12px;
+    font-size: 1.2em;    /* Increased from 1em */
+    padding: 10px 15px;  /* Increased padding */
   }
   
   #insidecontent p {
-    font-size: 1.2em;
-  }
-}
-
-/* Mobile phones */
-@media (max-width: 480px) {
-  body {
-    font-size: 60%;
-  }
-  
-  #container {
-    padding: 10px 5px 0;
-  }
-  
-  #header {
-    height: 150px;
-  }
-  
-  .headtitle {
-    font-size: clamp(1rem, 6vw, 1.8rem);
-    bottom: 10px;
-    left: 8px;
-    right: 8px;
-  }
-  
-  #menu {
-    top: 8px;
-    right: 10px;
-  }
-  
-  .menu-toggle {
-    padding: 8px 10px;
-    font-size: 1em;
-  }
-  
-  .menu-icon span {
-    width: 16px;
-  }
-  
-  .menu-dropdown {
-    min-width: 160px;
-  }
-  
-  #menu ul li a:link, 
-  #menu ul li a:active, 
-  #menu ul li a:visited {
-    font-size: 1.1em;
-    padding: 10px 15px;
-  }
-  
-  #insidecontent {
-    padding: 10px;
-  }
-  
-  #insidecontent p {
-    font-size: 1.3em;
-  }
-  
-  .hanging {
-    padding-left: 20px;
-    text-indent: -20px;
-  }
-  
-  .centerImage {
-    max-height: 100px;
-    max-width: 110px;
-  }
-  
-  #footer {
-    padding: 0 10px;
-  }
-  
-  #footer span {
-    font-size: 1.1em;
-    padding: 8px;
-  }
-}
-
-/* Very small screens */
-@media (max-width: 320px) {
-  #header {
-    height: 120px;
-  }
-  
-  .headtitle {
-    font-size: 1.2rem;
-  }
-  
-  #menu {
-    top: 5px;
-    right: 8px;
-  }
-  
-  .menu-toggle {
-    padding: 6px 8px;
-    font-size: 0.9em;
-  }
-  
-  .menu-dropdown {
-    min-width: 140px;
-  }
-  
-  #menu ul li a:link, 
-  #menu ul li a:active, 
-  #menu ul li a:visited {
-    font-size: 1em;
-    padding: 8px 12px;
-  }
-  
-  #insidecontent p {
-    font-size: 1.2em;
+    font-size: 1.4em;    /* Increased from 1.2em */
   }
 }
