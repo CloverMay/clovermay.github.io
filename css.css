@@ -436,6 +436,10 @@ h5 {
 
 /* Very small screens */
 @media (max-width: 320px) {
+     body {
+    font-size: 62.5%;  /* Increased from 60% for better readability */
+  }
+
   #header {
     height: 120px;
   }
@@ -451,22 +455,22 @@ h5 {
   
   .menu-toggle {
     padding: 12px 15px;   /* Slightly larger than before */
-    font-size: 1.4em;    /* Increased from 0.9em */
+    font-size: 1.6em;    /* Increased from 0.9em */
   }
   
   .menu-dropdown {
-    min-width: 140px;
+    min-width: 180px;
   }
   
   #menu ul li a:link, 
   #menu ul li a:active, 
   #menu ul li a:visited {
-    font-size: 1.4em;    /* Increased from 1em */
+    font-size: 1.6em;    /* Increased from 1em */
     padding: 10px 15px;  /* Increased padding */
   }
   
   #insidecontent p {
-    font-size: 1.4em;    /* Increased from 1.3em */
+    font-size: 1.6em;    /* Increased from 1.3em */
     line-height: 150%;   /* Increased line spacing */
   }
 }
