@@ -133,7 +133,7 @@ body {
 #menu ul li a:active, 
 #menu ul li a:visited {
   color: #FDFDFD;
-  padding: 12px 20px;
+  padding: 12px 15px;
   font-size: 11pt;
   font-family: tahoma, arial, sans-serif;
   font-weight: bold;
@@ -150,7 +150,7 @@ body {
 #menu ul li a:hover {
   background-color: #2e7578;
   color: #FDFDFD;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 /* Content - responsive layout */
@@ -336,7 +336,7 @@ h5 {
   #menu ul li a:active, 
   #menu ul li a:visited {
     /* font-size: 1.4em; */
-    padding: 10px 15px;
+    padding: 10px 12px;
   }
   
   #insidecontent {
@@ -394,7 +394,7 @@ h5 {
   #menu ul li a:active, 
   #menu ul li a:visited {
     /*font-size: 1.4em; */   /* Increased from 1.1em */
-    padding: 12px 18px;  /* Increased padding */
+    padding: 10px 12px;  /* Increased padding */
   }
   
   #insidecontent {
@@ -421,7 +421,7 @@ h5 {
   }
   
   #footer span {
-    font-size: 1.4em;    /* Increased from 1.1em */
+    /*font-size: 1.4em;  */  /* Increased from 1.1em */
     padding: 8px;
   }
 }
@@ -444,14 +444,14 @@ h5 {
   }
   
   .menu-dropdown {
-    min-width: 180px;
+    min-width: 120px;
   }
   
   #menu ul li a:link, 
   #menu ul li a:active, 
   #menu ul li a:visited {
    /* font-size: 1.6em; */   /* Increased from 1em */
-    padding: 10px 15px;  /* Increased padding */
+    padding: 10px 12px;  /* Increased padding */
   }
   
   #insidecontent p {
