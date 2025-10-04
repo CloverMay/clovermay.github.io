@@ -459,7 +459,7 @@ h5 {
   }
   
   .menu-dropdown {
-    min-width: 110px;    /* Increased from 160px */
+    min-width: 150px;    /* Increased from 160px */
   }
   
   #menu ul li a:link, 
@@ -484,8 +484,8 @@ h5 {
   }
   
   .centerImage {
-    max-height: 60px;
-    max-width: 66px;
+    max-height: 100px;
+    max-width: 110px;
   }
   
   #footer {
