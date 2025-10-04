@@ -428,34 +428,72 @@ h5 {
 
 /* Very small screens */
 @media (max-width: 320px) {
-  #header {
-    height: 120px;
+  #container {
+    padding: 10px 5px 0;
   }
   
+  #header {
+    height: 100px;
+  }
   
-  #menu {
-    top: 5px;
+  .headtitle {
+    /* font-size: clamp(1rem, 6vw, 1.8rem); */
+    bottom: 10px;
+    left: 8px;
     right: 8px;
   }
   
+  #menu {
+    top: 8px;
+    right: 10px;
+  }
+  
   .menu-toggle {
-    padding: 12px 15px;   /* Slightly larger than before */
-   /* font-size: 1.6em;  */  /* Increased from 0.9em */
+    padding: 12px 15px;  /* Increased padding for bigger button */
+    /*font-size: 1.4em;   */ /* Increased from 1em */
+  }
+  
+  .menu-icon span {
+    width: 20px;         /* Increased from 16px */
+    height: 2px;         /* Increased thickness */
   }
   
   .menu-dropdown {
-    min-width: 120px;
+    min-width: 110px;    /* Increased from 160px */
   }
   
   #menu ul li a:link, 
   #menu ul li a:active, 
   #menu ul li a:visited {
-   /* font-size: 1.6em; */   /* Increased from 1em */
+    /*font-size: 1.4em; */   /* Increased from 1.1em */
     padding: 10px 12px;  /* Increased padding */
   }
   
+  #insidecontent {
+    padding: 10px;
+  }
+  
   #insidecontent p {
-   /* font-size: 1.6em;  */  /* Increased from 1.3em */
+    /*font-size: 1.4em;*/    /* Increased from 1.3em */
     line-height: 150%;   /* Increased line spacing */
+  }
+  
+  .hanging {
+    padding-left: 20px;
+    text-indent: -20px;
+  }
+  
+  .centerImage {
+    max-height: 60px;
+    max-width: 66px;
+  }
+  
+  #footer {
+    padding: 0 10px;
+  }
+  
+  #footer span {
+    /*font-size: 1.4em;  */  /* Increased from 1.1em */
+    padding: 8px;
   }
 }
