@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1a1a1a;
-  font-family: tahoma, arial, sans-serif;
+  font-family: 'tahoma', arial, tahoma, sans-serif;
 }
 
 /* Container - responsive width */
@@ -35,7 +35,7 @@ body {
 
 .headtitle {
   position: absolute;
-  font-family: tahoma, arial, tahoma, sans-serif;
+  font-family: 'tahoma', arial, tahoma, sans-serif;
   font-size: 36pt;
   font-weight: bold;
   color: #FFF;
@@ -59,7 +59,7 @@ body {
   border: none;
   padding: 12px 15px;
   font-size: 11pt;
-  font-family: tahoma, arial, sans-serif;
+  font-family: 'tahoma', arial, tahoma, sans-serif;
   font-weight: bold;
   cursor: pointer;
   border-radius: 0px;
@@ -135,7 +135,7 @@ body {
   color: #FDFDFD;
   padding: 12px 15px;
   font-size: 11pt;
-  font-family: tahoma, arial, sans-serif;
+  font-family: 'tahoma', arial, tahoma, sans-serif;
   font-weight: bold;
   text-decoration: none;
   display: block;
@@ -176,7 +176,7 @@ body {
 #insidecontent p {
   margin: 0 0 1em 0;
   color: #767676;
-  font-family: tahoma, arial, sans-serif;
+  font-family: 'tahoma', arial, tahoma, sans-serif;
   font-size: 11pt;
   line-height: 150%;
 }
@@ -287,7 +287,7 @@ h5 {
 
 #footer span {
   display: block;
-  font-family: Tahoma;
+  font-family: 'tahoma', arial, tahoma, sans-serif;
   font-size: 10pt;
   padding: 10px;
   color: #767676;
